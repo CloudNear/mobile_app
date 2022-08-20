@@ -1,0 +1,140 @@
+body{
+    -webkit-font-smoothing: antialiased;
+    background-color: #f7f7f7 !important;
+    color: #4a4a4a;
+    font-family: Open Sans,sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.asdr{
+    --tw-bg-opacity: 1;
+    background-color: rgba(255,255,255,var(--tw-bg-opacity));
+    position: relative;
+    max-width: 480px;
+    width: 100%;
+    margin: 0px auto;
+    box-sizing: border-box;
+    top: 60px;
+    padding: 0px 16px 80px;
+    min-height: calc(100vh - 60px);
+}
+
+.header-nav{
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: rgb(0, 174, 239);
+    z-index: 11;
+}
+
+.nav-wrap{
+    
+    max-width: 480px;
+    width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: 0px auto;
+    height: 60px;
+}
+    
+
+.nav-wrap img{
+    width: 33px;
+    height: 33px;
+    margin-left: 0.625rem;
+}
+
+.menu-control{
+    list-style-type: none;
+    display: inline-block;
+    border-width: 1px 0px 0px;
+    border-right-style: initial;
+    border-bottom-style: initial;
+    border-left-style: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    font-weight: 600;
+    line-height: 13px;
+    text-align: center;
+    vertical-align: middle;
+    transition: all 0.35s ease 0s;
+    text-decoration: none;
+    width: 100%;
+    max-width: 480px;
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2;
+    padding: 10px;
+    font-size: 1em;
+    border-top-style: solid;
+    border-top-color: rgb(222, 222, 222);
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu1{
+    display: inline-block;
+    width: 19%;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.icon{
+    position: relative;
+    padding-top: 4px;
+    margin-bottom: 4px;
+}
+
+
+.menu-text{
+    color: rgb(168, 168, 168);
+    white-space: nowrap;
+    display: inline-block;
+}
+
+
+.card-profit{
+    background-image: url(https://assets.kitabisa.cc/images/banners/banner__install-app-akun-page.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.profit-wrapper{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.profit-wrapper p{
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 2px 11px;
+    text-align: left;
+}
+
+.profit-wrapper p:last-child{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.profit-text{
+    padding-left: 25px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
